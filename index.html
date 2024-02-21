@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="just my practice website">
+        <meta name="keywords" content="html, css, js">
+        <meta name="author" content="Your Name">
+        <meta http-equiv="refresh" content="30">
+        <title>HTML For Testers</title>
+    </head>
+    <body>
+        <h1><i>This is H1 heading</i></h1>
+        <h2>This is <mark>H2 heading</mark></h2>
+        <h6>This is <del>H6 heading</del></h6>
+
+        <!--<p>This paragraph for text content</p>  --> 
+        
+        <a href="https://www.w3schools.com" target="_blank"> Link to W3C</a>
+        <br>
+        <img src="https://testguild.com/wp-content/uploads/2018/11/AutomationTestingProcess.png" alt="Image not found" wight="100" height="100">
+
+        <table id="users-table">
+            <tr class="table-row">
+                <th id="table_header-name">First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr class="table-row">
+                <td>Mark</td>
+                <td>Smith</td>
+                <td>25</td>
+            </tr>
+            <tr class="table-row">
+                <td>Hector</td>
+                <td>Domingo</td>
+                <td>33</td>
+            </tr>
+        </table>
+
+        <ul>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>PHP</li>
+            <li>Golang</li>
+        </ul>
+
+        <ol data-test-id="list-with-names">
+            <li>Mark</li>
+            <li>Peter</li>
+            <li>Barbara</li>
+        </ol>
+
+        <form data-test-id="login-form">
+            First Name:<br>
+            <input type="text" placeholder="Enter your First name"><br>
+            Last Name:<br>
+            <input type="text" placeholder="Enter your Last name"><br>
+            Age:<br>
+            <input type="number" placeholder="Enter you Age"><br>
+            <input type="submit" value="Submit Form">
+        </form>
+
+        <button data-test-id="btn-menu" class="btn-large">Menu</button>
+        <button data-test-id="btn-maps" class="btn-large">Maps</button>
+        <button data-test-id="btn-users" class="btn-large">Users</button>
+
+        <h3>©</h3>
+        <h3>&#169</h3>
+        <h3>&copy</h3>
+
+        <h1>TIME</h1>
+        <button type="button" id="get-date-button" onclick="document.getElementById('date').innerHTML = Date()">Click to get Date</button>
+        <p id="date"></p>
+    </body>
+</html>
